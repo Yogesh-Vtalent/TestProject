@@ -7,11 +7,9 @@ namespace TestProject.BussinessAccessLayer
 {
     public class Operation
     {
-        public int Addition()
+        public int Addition(int a,int b)
         {
-            int a=3, b=2;
-            int res = a + b;
-            return res;
+            return a + b;
         }
     }
 }
